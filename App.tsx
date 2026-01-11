@@ -1,10 +1,10 @@
 
 import React, { useState } from 'react';
-import { QUESTIONS } from './constants';
-import { GameStatus, QuizState } from './types';
-import QuizCard from './components/QuizCard';
-import ProgressBar from './components/ProgressBar';
-import ResultView from './components/ResultView';
+import { QUESTIONS } from './constants.ts';
+import { GameStatus, QuizState } from './types.ts';
+import QuizCard from './components/QuizCard.tsx';
+import ProgressBar from './components/ProgressBar.tsx';
+import ResultView from './components/ResultView.tsx';
 
 const App: React.FC = () => {
   const [state, setState] = useState<QuizState>({

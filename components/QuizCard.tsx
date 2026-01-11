@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Question } from '../types';
+import { Question } from '../types.ts';
 
 interface QuizCardProps {
   question: Question;

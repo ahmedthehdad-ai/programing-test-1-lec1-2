@@ -16,10 +16,8 @@
         body {
             font-family: 'Inter', sans-serif;
             background-color: #f8fafc;
-            /* Prevent bounce scrolling on mobile */
             overscroll-behavior-y: contain;
         }
-        /* Mobile tap highlight removal */
         * {
             -webkit-tap-highlight-color: transparent;
         }
@@ -36,5 +34,7 @@
 </head>
 <body>
     <div id="root"></div>
+    <!-- This tag was missing: it tells the browser where the app starts -->
+    <script type="module" src="./index.tsx"></script>
 </body>
 </html>
